@@ -86,7 +86,7 @@ module CarrierWave
       #     my_uploader.downloader = CarrierWave::Downloader::CustomDownloader
       #
       def skip_ssrf_protection?(uri)
-        false
+        true
       end
     end
   end
